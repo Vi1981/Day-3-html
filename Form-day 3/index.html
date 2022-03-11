@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký học viên</title>
+    <style>
+        body {
+            background-color: #fffcad;
+        }
+
+        .form-title {
+            color: #4772f2;
+            background-color: #d5fcd7;
+            text-align: left;
+                    }
+
+        .signup-form {
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="form-title">ĐĂNG KÝ HỌC VIÊN</h1>
+    <form action="signup.php" class="signup-form">
+        <table cellpadding="5px" cellspacing="5px">
+            <tr>
+                <td>
+                    Họ và tên
+                </td>
+                <td >
+                    <input type="text" name="fullname" size="25"> 
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    Ngày sinh
+                </td>
+                <td >
+                    <input type="text" name="birthday" size="18">
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    Giới tính
+                </td>
+                <td class="right-col">
+                    <input type="radio" name="gender">Nam
+                    <input type="radio" name="gender">Nữ <br>
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    Địa chỉ
+                </td>
+                <td >
+                    <textarea name="text" id="" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    Lớp
+                </td>
+                <td class="right-col">
+                    <select >
+                        <option value="chonlop">-chọn lớp-
+
+                        </option>
+                        <option value="">A</option>
+                        <option value="">B</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    Email
+                </td>
+                <td >
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Số điện thoại
+                </td>
+                <td >
+                    <input type="tel" name="tel">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng ký">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
