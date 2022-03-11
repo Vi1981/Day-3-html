@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .sign-up {
+            color: #fafbfd;
+            border: 1px solid black;
+            width: 400px;
+        }
+        .table-1 {
+            width: 100%;
+           
+        }
+
+        caption {
+            color: #ffffff;
+            background-color: #cf2e2e;
+
+        }
+
+        .left-col {
+            
+            color: #8ebefc;
+            text-align: right;
+        }
+
+        .sothich {
+            color: #ff6900;
+        }
+        .sothich-1 {
+           padding-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="sign-up.php" class="sign-up">
+        <table class="table-1" cellpadding="5px" cellspacing="5px">
+            <caption>SỞ THÍCH CỦA BẠN</caption>
+            <tr>
+                <td class="left-col">
+                    Họ và tên
+                </td>
+                <td class="right-col">
+                    <input type="text" name="fullname" size="25">
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col">
+                    Email
+                </td>
+                <td>
+                    <input type="email" name="email" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td class="left-col sothich-1">
+                    Sở thích
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td class="sothich">
+                                <input type="checkbox" id="hobby1" name="hobby1" value="hobby">sport
+                               
+                                <input type="checkbox" id="hobby2" name="hobby2" value="hobby">music
+                                
+                                <input type="checkbox" id="hobby3" name="hobby3" value="hobby">read book
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="sothich">
+                                <input type="checkbox" id="hobby4" name="hobby4" value="hobby">web chat
+                                
+                                <input type="checkbox" id="hobby5" name="hobby5" value="hobby">game
+                               
+                                <input type="checkbox" id="hobby6" name="hobby6" value="hobby">movie
+                                
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="sothich">
+                                <input type="checkbox" id="hobby7" name="hobby7" value="hobby">travel
+                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gui Thong tin">
+                    <input type="reset" value="Reset lai">
+                </td>
+            </tr>
+        </table>
+
+
+    </form>
+</body>
+
+</html>
